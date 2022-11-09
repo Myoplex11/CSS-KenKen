@@ -21,12 +21,17 @@ html {
   font-size: 10px;
 }
 
+
+
+
 .grid {
   display:grid ;
   grid-template-columns: repeat(4,1fr);
   grid-template-rows: repeat(4,1fr);
   height: 25vw;
   width :25vw;
+  border: 0.5rem solid black
+
 
 }
 
@@ -35,6 +40,11 @@ html {
   font-size: 2rem;
   background-color:white;
   position: relative;
+  display:flex;
+
+
+
+
 }
 
 #box1, #box2, #box3, #box4, #box5, #box8, #box9, #box10, #box11 {
@@ -42,10 +52,22 @@ html {
 
 }
 
+ #box12 {
+  border-left: 0.5rem solid black;
+}
+
+#box9 {
+  border-right: 0.5rem solid black;
+}
+
+#box2, #box6, #box10, #box14{
+  border-right: 0.5rem solid black;
+}
 .prompt {
-  position: absolute;
+
   top: 0%;
   right: 0%;
+
 }
 
 .answer {
